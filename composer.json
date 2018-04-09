@@ -1,0 +1,20 @@
+{
+  "name": "dybasedev/keeper-contracts",
+  "description": "Keeper contracts",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "chongyi",
+      "email": "chongyi@xopns.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Dybasedev\\KeeperContracts\\": "src/"
+    }
+  },
+  "require": {
+    "illuminate/contracts": "~5.5"
+  }
+}
