@@ -8,9 +8,7 @@
 
 namespace Dybasedev\KeeperContracts\Module;
 
-use Psr\Container\ContainerInterface;
-
 interface DestructibleModuleProvider extends ModuleProvider
 {
-    public function destroy(ContainerInterface $container);
+    public function destroy(Container $container);
 }
