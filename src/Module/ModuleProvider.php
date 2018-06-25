@@ -8,12 +8,11 @@
 
 namespace Dybasedev\KeeperContracts\Module;
 
-
-use Illuminate\Contracts\Container\Container;
+use Psr\Container\ContainerInterface;
 
 interface ModuleProvider
 {
-    public function register(Container $container);
+    public function register(ContainerInterface $container);
 
-    public function mount(Container $container);
+    public function mount(ContainerInterface $container);
 }
